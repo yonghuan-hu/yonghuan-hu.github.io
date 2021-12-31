@@ -1,0 +1,90 @@
+/* -------------------- LAYOUT -------------------- */
+
+main {
+    padding: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.rowitem {
+    background-color: rgb(247, 247, 247);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+/* -------------------- FONTS -------------------- */
+
+h1 {
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+a {
+    color:dodgerblue;
+    white-space: nowrap;
+}
+
+p {
+    
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem; 
+}
+
+.font-jobposition {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.font-companyname {
+    font-size: 1.25rem;
+}
+
+.font-bigname {
+    font-size: 3rem;
+}
+
+.font-cursive {
+    font-family: "Kaushan Script", "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+/* -------------------- RESPONSIVE SIDEBAR -------------------- */
+
+nav {
+    padding: 2rem;
+}
+
+/* IF WIDTH >= 992px */
+@media (min-width: 992px) {
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 350px;
+      height: 100vh;
+    }
+    main {
+        margin-left: 350px;
+    }
+}
