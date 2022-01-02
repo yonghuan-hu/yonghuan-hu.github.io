@@ -9,8 +9,7 @@ main {
 }
 
 section {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .icon {
@@ -29,6 +28,10 @@ section {
     background-color: rgb(237, 237, 237);
     margin-bottom: 1rem;
     padding: 0.75rem;
+}
+
+footer {
+    padding-bottom: 2rem;
 }
 
 /* -------------------- FONTS -------------------- */
@@ -70,7 +73,7 @@ p {
 /* -------------------- RESPONSIVE SIDEBAR -------------------- */
 
 nav {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /* IF WIDTH >= 992px */
@@ -90,6 +93,9 @@ nav {
       height: 100vh;
     }
     main {
+        margin-left: 350px;
+    }
+    footer {
         margin-left: 350px;
     }
 }
