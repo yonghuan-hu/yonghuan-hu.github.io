@@ -52,6 +52,11 @@ p {
     margin-bottom: 0.3rem; 
 }
 
+li {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem; 
+}
+
 .font-position {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
