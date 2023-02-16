@@ -82,7 +82,7 @@ nav {
 }
 
 /* IF WIDTH >= 992px */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     nav {
       position: fixed;
       top: 0;
@@ -103,4 +103,4 @@ nav {
     footer {
         margin-left: 350px;
     }
-}
+} */
