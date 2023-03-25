@@ -1,0 +1,27 @@
+.center {
+  text-align: center;
+}
+
+.banner {
+  background-image: url("img/banner.gif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h1, h2, h3, h4, h5, p, i, a, strong, b, div {
+  font-family: CenturyGothic, AppleGothic, Verdana, Geneva, sans-serif;
+}
