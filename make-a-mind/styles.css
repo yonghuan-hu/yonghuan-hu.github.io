@@ -1,3 +1,12 @@
+.text-shadow-success
+{
+    text-shadow:
+    -1px -1px 0 rgb(25, 135, 84),
+    3px -3px 0 rgb(25, 135, 84),
+    -1px 1px 0 rgb(25, 135, 84),
+    1px 1px 0 rgb(25, 135, 84);
+}
+
 .center {
   text-align: center;
 }
