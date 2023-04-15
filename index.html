@@ -38,10 +38,22 @@
         </div>
     </nav>
 
-    <main class="row">
-        <!-- side bar -->
-        <div class="col-lg-3">
+    <main class="container-fluid px-5">
+        
+        <section class="container-fluid p-5">
             <h1 class="font-bigname font-cursive center">Yonghuan <br>David Hu</h1>
+        
+            <p class="center">
+                <img src="img/github.png" class="icon">&nbsp;
+                <a href="https://github.com/yonghuan-hu" target="_blank">
+                    github.com/yonghuan-hu
+                </a>
+                <img src="img/email.png" class="icon ms-4">&nbsp;
+                <a href="mailto:yonghuan@umich.edu">
+                    yonghuan@umich.edu
+                </a>
+            </p>
+            
             <p>
                 <span class="font-cursive">Welcome!&nbsp;</span>
                 I'm a software engineer who enjoys low-level systems programming, especially in resource-constrained and
@@ -49,143 +61,54 @@
                 fun in their own ways. Outside of work, I'm an avid reader and care about the social impact of
                 technology. "Do androids dream of electric sheep?"
             </p>
-            <!-- <p>
-                <img src="img/resume.png" class="icon">&nbsp;
-                <a href="https://drive.google.com/file/d/17LBhpk9EZdPwHUcUfa_5Dvo6vTVTFdEG/view" target="_blank">
-                    Prefer a traditional resume?
-                </a>
-            </p> -->
-            <p>
-                <img src="img/github.png" class="icon">&nbsp;
-                <a href="https://github.com/yonghuan-hu" target="_blank">
-                    github.com/yonghuan-hu
-                </a>
-            </p>
-            <p>
-                <img src="img/email.png" class="icon">&nbsp;
-                <a href="mailto:yonghuan@umich.edu">
-                    yonghuan@umich.edu
-                </a>
-            </p>
-        </div>
+        </section>
 
-        <!-- resume sections -->
-        <div class="col-lg-9">
-            <!-- education -->
-            <section class="container-fluid">
-                <h1 class="center">Education</h1>
-                <div class="row align-items-center rowitem">
-                    <div class="col-3">
-                        <img class="img-fluid" src="img/umich.png">
-                    </div>
-                    <div class="col-lg-9">
-                        <p class="font-position">
-                            <span class="font-companyname">University of Michigan</span> <br>
-                            <i>B.S. in Computer Science</i>
-                        </p>
-                        <p>
-                            <b>GPA:</b> 3.9/4.0
-                        </p>
-                        <p>
-                            <b>Coursework:</b>
-                            Data Structures & Algorithms, Operating Systems, Distributed Systems, Web Systems,
-                            Functional Programming, Machine Learning, Computer Organization, Theoretical Computer
-                            Science
+        <!-- work experience -->
+        <section class="container-fluid px-5">
+            <h1 class="center">Experience</h1>
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <a><img class="img-fluid" src="img/stripe.png" alt="Card image cap"></a>
+                    <div class="cardtextarea">
+                        <p class="font-companyname center">
+                            Stripe
                         </p>
                     </div>
                 </div>
-            </section>
+                <div class="col-3">
+                    <a><img class="img-fluid" src="img/tencent.png" alt="Card image cap"></a>
+                    <div class="cardtextarea">
+                        <p class="font-companyname center">
+                            Tencent Games
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <a><img class="img-fluid" src="img/spl.png" alt="Card image cap"></a>
+                    <div class="cardtextarea">
+                        <p class="font-companyname center">
+                            UofM Speech Lab
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <a><img class="img-fluid" src="img/umich.png" alt="Card image cap"></a>
+                    <div class="cardtextarea">
+                        <p class="font-companyname center">
+                            University of Michigan
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
 
-            <!-- work experience -->
-            <section class="container-fluid">
-                <h1 class="center">Experience</h1>
-                <!-- experience: Stripe -->
-                <div class="row align-items-center rowitem">
-                    <div class="col-3">
-                        <img class="img-fluid" src="img/stripe.png">
-                    </div>
-                    <div class="col-lg-9">
-                        <p class="font-position">
-                            <span class="font-companyname">Stripe</span> <br>
-                            <i>Software Engineering Intern</i>
-                        </p>
-                        <li>
-                            Led the benchmarking and deployment of next-generation AWS EC2 instances on thousand-node
-                            Hadoop clusters
-                        </li>
-                        <li>
-                            Achieved zero downtime throughout the incremental rollout via risk mitigation planning
-                        </li>
-                        <li>
-                            Built a monitoring dashboard to track cluster-wide reliability metrics in real time
-                        </li>
-                        <li>
-                            Materialized $2.3M annual cost savings and delivered 20% cost-adjusted computation
-                            performance improvements
-                        </li>
-                    </div>
-                </div>
-                <!-- experience: Tencent -->
-                <div class="row align-items-center rowitem">
-                    <div class="col-3">
-                        <img class="img-fluid" src="img/tencent.png">
-                    </div>
-                    <div class="col-lg-9">
-                        <p class="font-position">
-                            <span class="font-companyname">Tencent</span> <br>
-                            <b><i>Software Engineering Intern</i></b>
-                        </p>
-                        <li>
-                            Developed a performance monitoring service for the CI/CD pipeline of League of Legends, one
-                            of the most popular video games in the world, to track memory allocations during automated
-                            testing
-                        </li>
-                        <li>
-                            Refactored a graphics error detection API and reduced its response time from 500ms to 100ms
-                            by utilizing multithreading and low-level C++ performance optimization techniques
-                        </li>
-                        <li>
-                            Identified and fixed multiple memory leaks of the in-game testing framework that could
-                            affect 7 million users
-                        </li>
-                    </div>
-                </div>
-                <!-- experience: SPL -->
-                <div class="row align-items-center rowitem">
-                    <div class="col-3">
-                        <img class="img-fluid" src="img/spl.png">
-                    </div>
-                    <div class="col-lg-9">
-                        <p class="font-position">
-                            <span class="font-companyname">Michigan Speech Production Lab</span> <br>
-                            <b><i>Research Assistant</i></b>
-                        </p>
-                        <li>
-                            Designed the schema and data constraints of a MySQL database and deployed to OpenShift cloud
-                            containers
-                        </li>
-                        <li>
-                            Programmed a RESTful backend service to dynamically generate survey questionnaires
-                        </li>
-                        <li>
-                            Implemented and trained a neural network using PyTorch to classify different types of
-                            conversations
-                        </li>
-                        <li>
-                            Achieved 81% precision and 74% recall in real-world test datasets and made an
-                            inter-departmental presentation
-                        </li>
-                    </div>
-                </div>
-            </section>
-
-        </div>
     </main>
 
     <!-- footer-->
     <footer class="center">
         <small>
-            Last updated Feb 2023
+            Last updated Apr 2023
         </small>
     </footer>
 
