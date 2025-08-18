@@ -38,18 +38,8 @@ h1 {
 }
 
 a {
-    color:dodgerblue;
+    color: dodgerblue;
     white-space: nowrap;
-}
-
-p {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem; 
-}
-
-li {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem; 
 }
 
 .font-position {
