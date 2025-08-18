@@ -1,6 +1,6 @@
 # My secret notebook
-Congrats! You just discovered my secret notebook.
+Congrats! You just discovered my secret notebook. As for what you're looking for...
 
-恭喜你！你找到了我的QQ空间。
+恭喜你！你找到了我的QQ空间。你想找的东西就在...
 
-https://github.com/yonghuan-hu/yonghuan-hu.github.io/tree/master/hidden
+Hint: see below
